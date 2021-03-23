@@ -1,0 +1,6 @@
+FROM mysql/mysql-server:5.7
+
+ENV MYSQL_ALLOW_EMPTY_PASSWORD=TRUE
+ENV MYSQL_USER=mysqladmin
+ENV MYSQL_PASSWORD=learnforever
+ENV MYSQL_DATABASE=learndb
